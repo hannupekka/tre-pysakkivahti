@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/main_header"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+		style="?android:listSeparatorTextViewStyle"
+        android:text="@string/main_header"/>
+    
+    <ListView
+	    android:id="@+id/stoplist"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"/>
+   	
+   	<TextView
+	    android:id="@+id/empty_stoplist"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="18sp"
+	    android:paddingTop="10dp"
+	    android:paddingLeft="8dp"
+	    android:text="@string/empty_stop" />
+   	
+    <Button 
+        android:id="@+id/stoplist_empty_button"
+        android:text="@string/action_manage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+    
+</LinearLayout>

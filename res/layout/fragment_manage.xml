@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="fi.hpheinajarvi.tamperepysakkivahti.ManageActivity$PlaceholderFragment" >
+
+    <TextView 
+        android:id="@+id/manage_header"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+		style="?android:listSeparatorTextViewStyle"
+        android:text="@string/manage_header"/>
+    
+	<com.mobeta.android.dslv.DragSortListView
+	    xmlns:dslv="http://schemas.android.com/apk/res/fi.hpheinajarvi.tamperepysakkivahti"
+	    android:id="@+id/manage_stops_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    dslv:drag_enabled="true"
+	    dslv:collapsed_height="1px"
+	    dslv:drag_scroll_start="0.33"
+	    dslv:float_alpha="1.0"
+	    dslv:drag_handle_id="@+id/manage_stop_number"
+	    dslv:slide_shuffle_speed="0.3"
+	    dslv:drag_start_mode="onMove"
+	    dslv:float_background_color="#00000055"/>
+   	<TextView
+	    android:id="@+id/empty_manage_stoplist"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="18sp"
+	    android:paddingTop="10dp"
+	    android:paddingLeft="8dp"
+	    android:text="@string/empty_stop" />
+   	
+  	<Button 
+        android:id="@+id/manage_empty_button"
+        android:text="@string/title_activity_add_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="showTabs" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_show_line_number"
+        android:summary="@string/pref_show_line_number_summary"
+        android:title="@string/pref_show_line_number" />
+    
+    <CheckBoxPreference 
+        android:defaultValue="false"
+        android:key="pref_enable_map"
+        android:summary="@string/pref_enable_map_summary"
+        android:title="@string/pref_enable_map" />
+
+</PreferenceScreen>

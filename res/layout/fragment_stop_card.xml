@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView 
+        android:id="@+id/stop_header"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        style="?android:listSeparatorTextViewStyle"/>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res/fi.hpheinajarvi.tamperepysakkivahti"
+        android:id="@+id/stop_departures"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        ptr:ptrOverScroll="false"
+        ptr:ptrShowIndicator="false"
+        android:divider="@null"
+        android:dividerHeight="8dp">
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

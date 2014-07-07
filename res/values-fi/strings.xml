@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tampere Pysäkkivahti</string>
+    <string name="action_manage">Hallitse pysäkkejä</string>
+    <string name="action_about">Tietoja</string>
+    <string name="action_refresh">Päivitä</string>
+    <string name="action_add">Lisää</string>
+    <string name="action_edit">Muokkaa</string>
+    <string name="action_edit_rename">Nimeä uudelleen</string>
+    <string name="action_edit_rename_msg">Jätä tyhjäksi palauttaaksesi alkuperäiseen</string>
+    <string name="action_delete">Poista</string>
+    <string name="title_activity_about">Tietoja</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="main_header">Valitse pysäkki</string>
+    <string name="manage_header">Raahaa numerosta järjestääksesi, pidä nimeä pohjassa muokataksesi</string>
+    <string name="empty">Ei lähtöjä</string>
+    <string name="empty_stop">Ei pysäkkejä. Voit lisätä niitä valikosta.</string>
+    <string name="title_activity_manage">Hallitse pysäkkejä</string>
+    <string name="title_activity_add_stop">Lisää pysäkki</string>
+    <string name="new_stop_hint">Pysäkin nimi tai numero</string>
+    <string name="save_new_stop">Tallenna</string>
+    <string name="clear_new_stop">Tyhjennä</string>
+    <string name="stop_added">Pysäkki lisätty</string>
+    <string name="stop_exists">Pysäkki on jo olemassa</string>
+    <string name="stop_deleted">Pysäkki poistettu</string>
+    <string name="stop_renamed">Pysäkki nimetty uudelleen</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Peruuta</string>
+    <string name="pref_show_line_number">Näytä linjan numero?</string>
+    <string name="pref_show_line_number_summary">Näytetäänkö pysäkin numero pysäkkilistassa. Vaatii sovelluksen uudelleenkäynnistämisen.</string>
+    <string name="pref_use_compact_style">Use compact departure style</string>
+    <string name="pref_use_compact_style_summary">Shows all information on 1 row. Might save some vertical space.</string>
+    <string name="title_activity_settings">Asetukset</string>
+    <string name="about_version">versio</string>
+    <string name="author_name">Hannu-Pekka Heinäjärvi</string>
+    <string name="author_www">http://github.com/hannupekka</string>
+    <string name="author_twitter">http://twitter.com/hp_heinajarvi</string>
+    <string name="widget_target_stop_title">Valitse widgetissä näytettävä pysäkki</string>
+    <string name="title_activity_add_stop_tabs">Lisää pysäkki</string>
+    <string name="title_section_search">Etsi</string>
+    <string name="title_section_map">Kartta</string>
+    <string name="please_wait">Odota</string>
+    <string name="loading">Ladataan...</string>
+    <string name="add_stop">Lisää pysäkki?</string>
+    <string name="remove_stop">Poista pysäkki?</string>
+    <string name="stop_add_delete">Paina tästä lisätäksesi tai poistaaksesi pysäkin.</string>
+    <string name="error">Virhe</string>
+    <string name="error_message">Virhe ladatessa pysäkkitietoja. Tarkista Internet-yhteys ja yritä myöhemmin uudelleen.</string>
+    <string name="pref_enable_map">Käytä karttaa?</string>
+    <string name="pref_enable_map_summary">Mikäli tämä on valittuna, pysäkit on mahdollista etsiä kartalta. </string>
+
+</resources>
